@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-mage</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.8573163,24.6428571 L14.8573163,9.65013752 L18.5713418,11.7929947 L18.5713418,26.7857143 L12.9975713,30 L7.42865817,26.7857143 L7.42258652,11.7929947 L11.1360049,9.65013752 L11.1360049,24.6507442 L13.0006072,25.7179259 L14.8573163,24.6428571 Z M13.0127505,0 L26,7.49271962 L26,22.5 L22.2853673,24.639217 L22.2853673,9.65013752 L12.9878567,4.28571429 L3.68913175,9.65013752 L3.7140255,24.6434638 L0,22.5 L0,7.50667368 L13.0127505,0 Z" id="path-1"></path>
+    </defs>
+    <g id="logo-mage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shape" transform="translate(3.000000, 1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Magento-Logo-Shape" fill="#F26322" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Magento-Orange" mask="url(#mask-2)" fill="#F26322">
+                <g transform="translate(-3.000000, -1.000000)" id="Rectangle">
+                    <rect x="0" y="0" width="32" height="32"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

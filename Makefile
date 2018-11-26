@@ -12,7 +12,7 @@ else
 PYTHON ?= $(shell command -v python)
 endif
 
-python_code := leblanc_codes tests
+python_code := shields tests
 
 help:
 	@echo 'Usage: make <target>'

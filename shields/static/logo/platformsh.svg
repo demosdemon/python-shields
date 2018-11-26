@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-psh</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.7,0.7 L25.2,0.7 L25.2,10.4195804 L0.7,10.4195804 L0.7,0.7 Z M0.7,21.9454545 L25.2,21.9454545 L25.2,25.3 L0.7,25.3 L0.7,21.9454545 Z M0.7,13.6020979 L25.2,13.6020979 L25.2,18.5909091 L0.7,18.5909091 L0.7,13.6020979 Z" id="path-1"></path>
+    </defs>
+    <g id="logo-psh" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shape" transform="translate(3.000000, 3.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#16A9E1" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Platform-Blue" mask="url(#mask-2)" fill="#16A9E1">
+                <g transform="translate(-3.000000, -3.000000)" id="Rectangle">
+                    <rect x="0" y="0" width="32" height="32"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

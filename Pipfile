@@ -5,7 +5,9 @@ name = "pypi"
 
 [packages]
 "Flask" = "*"
+"lxml" = "*"
 "redis" = "*"
+"tinycss2" = "*"
 
 [dev-packages]
 "black" = "*"
