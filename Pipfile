@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"Flask" = "*"
+"redis" = "*"
+
+[dev-packages]
+"black" = "*"
+"flake8-bandit" = "*"
+"flake8-bugbear" = "*"
+"flake8-builtins" = "*"
+"flake8-comprehensions" = "*"
+"flake8-requirements" = "*"
+"flake8-spellcheck" = "*"
+"flake8" = "*"
+"ipdb" = "*"
+"ipython" = "*"
+"isort" = "*"
+"pytest-clarity" = "*"
+"pytest-click" = "*"
+"pytest-cov" = "*"
+"pytest-flask" = "*"
+"pytest" = "*"
+"shields" = { editable = true, path = "." }
+"sphinx" = "*"
+"WebTest" = "*"
+
+[pipenv]
+allow_prereleases = true

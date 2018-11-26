@@ -1,0 +1,35 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+# exclude: ^(vendor|docs)/.*$
+exclude: (.gitignore$)
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v2.0.0
+  hooks:
+    - id: check-added-large-files
+    - id: check-byte-order-marker
+    - id: check-case-conflict
+    - id: check-docstring-first
+    - id: check-executables-have-shebangs
+    - id: check-vcs-permalinks
+    - id: check-xml
+    - id: check-yaml
+    - id: debug-statements
+    - id: end-of-file-fixer
+    - id: fix-encoding-pragma
+    - id: pretty-format-json
+    - id: requirements-txt-fixer
+    - id: trailing-whitespace
+- repo: https://github.com/ambv/black
+  rev: master
+  hooks:
+    - id: black
+      language_version: python3.7
+- repo: https://gitlab.com/pycqa/flake8
+  rev: master
+  hooks:
+    - id: flake8
+- repo: https://github.com/PyCQA/bandit
+  rev: master
+  hooks:
+    - id: bandit
