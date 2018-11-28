@@ -12,7 +12,7 @@ else
 PYTHON ?= $(shell command -v python)
 endif
 
-python_code := shields tests
+python_code := shields tests scripts
 
 help:
 	@echo 'Usage: make <target>'
@@ -41,7 +41,8 @@ all: lock sync format test
 clean:
 	git clean -xdf -e .env -e .venv
 
-format: $(PYTHON)
+format requirements.txt: $(PYTHON)
+	$(PYTHON) "$(CURDIR)/scripts/sync-requirements.py" -r "$(CURDIR)/requirements.txt" -p "$(CURDIR)/Pipfile"
 	$(PYTHON) -m isort --recursive $(python_code)
 	$(PYTHON) -m black $(python_code)
 

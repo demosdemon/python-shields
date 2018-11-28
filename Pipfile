@@ -1,31 +1,36 @@
 [[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
+"name" = "pypi"
+"url" = "https://pypi.org/simple"
+"verify_ssl" = true
 
 [packages]
 "Flask" = "*"
 "lxml" = "*"
 "redis" = "*"
+"svgutils" = "*"
 "tinycss2" = "*"
 
 [dev-packages]
 "black" = "*"
+"click" = "*"
+"flake8" = "*"
 "flake8-bandit" = "*"
 "flake8-bugbear" = "*"
 "flake8-builtins" = "*"
 "flake8-comprehensions" = "*"
+"flake8-mypy" = "*"
 "flake8-requirements" = "*"
 "flake8-spellcheck" = "*"
-"flake8" = "*"
 "ipdb" = "*"
 "ipython" = "*"
 "isort" = "*"
+"mypy" = "*"
+"pytest" = "*"
 "pytest-clarity" = "*"
 "pytest-click" = "*"
 "pytest-cov" = "*"
 "pytest-flask" = "*"
-"pytest" = "*"
+"requirementslib" = "*"
 "shields" = { editable = true, path = "." }
 "sphinx" = "*"
 "WebTest" = "*"
