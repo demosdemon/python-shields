@@ -1,6 +1,7 @@
 click
 flask
 lxml
+ordered-set
 redis
 svgutils
 tinycss2
