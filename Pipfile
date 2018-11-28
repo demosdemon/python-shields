@@ -4,6 +4,7 @@
 "verify_ssl" = true
 
 [packages]
+"click" = "*"
 "Flask" = "*"
 "lxml" = "*"
 "redis" = "*"
@@ -12,7 +13,6 @@
 
 [dev-packages]
 "black" = "*"
-"click" = "*"
 "flake8" = "*"
 "flake8-bandit" = "*"
 "flake8-bugbear" = "*"

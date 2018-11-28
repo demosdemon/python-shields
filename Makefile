@@ -41,8 +41,8 @@ all: lock sync format test
 clean:
 	git clean -xdf -e .env -e .venv
 
-format requirements.txt: $(PYTHON)
-	$(PYTHON) "$(CURDIR)/scripts/sync-requirements.py" -r "$(CURDIR)/requirements.txt" -p "$(CURDIR)/Pipfile"
+format: $(PYTHON)
+	$(PYTHON) scripts/sync-requirements.py
 	$(PYTHON) -m isort --recursive $(python_code)
 	$(PYTHON) -m black $(python_code)
 

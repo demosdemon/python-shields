@@ -13,7 +13,7 @@ import os
 from itertools import filterfalse, starmap
 from typing import Any, Callable, Hashable, Tuple, Union
 
-import click  # noqa: I900
+import click
 from packaging.utils import canonicalize_name  # noqa: I900
 from requirementslib import Requirement  # noqa: I900
 from tomlkit import loads  # noqa: I900
